@@ -1,0 +1,8 @@
+# SMPPSim Configuration
+system_id=test
+password=test
+port=2775
+bind_timeout=30000
+bind_ton=1
+bind_npi=1
+bind_addr_range=.*

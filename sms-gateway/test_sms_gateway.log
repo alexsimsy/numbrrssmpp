@@ -1,0 +1,2 @@
+2025-04-28 19:31:03.035 | INFO     | app.smpp_client:run_smpp:58 - Connecting to SMSC at localhost:2775
+2025-04-28 19:35:04.065 | INFO     | app.smpp_client:run_smpp:58 - Connecting to SMSC at localhost:2775

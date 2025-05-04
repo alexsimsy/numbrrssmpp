@@ -1,0 +1,20 @@
+[Unit]
+Description=SMPP Server Service
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/sms-gateway
+Environment="SMPP_HOST=0.0.0.0"
+Environment="SMPP_PORT=2875"
+Environment="SMPP_SYSTEM_ID=simsy1"
+Environment="SMPP_PASSWORD=n9mb335m"
+Environment="LOG_LEVEL=DEBUG"
+Environment="LOG_FILE=/home/ubuntu/sms-gateway/logs/sms_gateway.log"
+ExecStart=/home/ubuntu/sms-gateway/venv/bin/python -m app.smpp_server
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target 

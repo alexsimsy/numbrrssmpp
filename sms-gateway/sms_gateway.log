@@ -1,0 +1,9 @@
+2025-04-28 17:06:58.925 | ERROR    | app.smpp_client:run_smpp:64 - Error in SMPP client: Parameter `hook` must be of type `AbstractHook` and `SMPPHook` type was provided.
+2025-04-28 17:06:58.925 | ERROR    | __main__:main:56 - Application error: Parameter `hook` must be of type `AbstractHook` and `SMPPHook` type was provided.
+2025-04-28 17:07:40.480 | INFO     | app.smpp_client:run_smpp:55 - Connecting to SMSC at 127.0.0.1:2775
+2025-04-28 17:12:26.147 | INFO     | app.smpp_client:run_smpp:58 - Connecting to SMSC at 127.0.0.1:2775
+2025-04-28 17:14:05.509 | ERROR    | app.smpp_client:run_smpp:47 - Error in SMPP client: ESME.__init__() got an unexpected keyword argument 'message_received'
+2025-04-28 17:14:05.509 | ERROR    | __main__:main:56 - Application error: ESME.__init__() got an unexpected keyword argument 'message_received'
+2025-04-28 17:16:10.723 | INFO     | app.smpp_client:run_smpp:60 - Connecting to SMSC at 127.0.0.1:2775
+2025-04-28 17:19:43.303 | INFO     | app.smpp_client:run_smpp:60 - Connecting to SMSC at 127.0.0.1:2775
+2025-04-28 17:21:18.560 | INFO     | app.smpp_client:run_smpp:60 - Connecting to SMSC at 127.0.0.1:2775

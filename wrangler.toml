@@ -1,0 +1,11 @@
+sms-gateway/
+├── app/
+│   ├── __init__.py
+│   ├── smpp_client.py
+│   ├── forwarder.py
+│   └── config.py
+├── tests/
+│   └── test_smpp_client.py
+├── requirements.txt
+├── README.md
+└── main.py 
